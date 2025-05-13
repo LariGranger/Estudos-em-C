@@ -1,0 +1,58 @@
+# Plano de Estudos
+
+Dia 12/05 - 1✅, 2✅, 3, 4, 5
+Dia 13/05 - 5, 6, 7, 8, 9, 10 + code ::: blocks
+Dia 14/05 - 11, 12, 13, 14, 15 + listas de exercícios
+
+## Obs.
+
+- Em C, as {} (chaves) delimitam um bloco de código e o ; (ponto e virgula) finaliza um comando.
+
+## Variáveis
+
+Elementos da programação que possuem um tipo de dado, um nome e um valor
+
+**_ #include <stdio.h> _** entrada e saída padrão nos computadores
+
+**_ printf("Hello world!\n"); _** função de saída de dados no console
+
+**_ int idade = 0; _** declara e inicializa a variável
+
+**_ int idade; _** declara variável do tipo inteiro
+
+**_ scanf("%d", &idade); _** função para receber dados
+
+- %d → define que estamos recebendo uma variável do tipo inteiro
+
+- &nomeVariável → define qual variável será recebida
+
+## Compilador
+
+Transforma o código de texto em linguagem de máquina
+GCC - compilador
+O GCC faz a leitura do código-fonte, verifica quais as bibliotecas e gera um executável para o SO correspondente
+
+## Como compilar um código-fonte usando o terminal
+
+Na pasta que tá o projeto - gcc nomeDoPrograma.c -o nomeExecutavel.exe
+(o exe. só importa mesmo no Windows)
+
+./nomeExecutavel.exe - executa o programa Linux ou Mac
+nomeExecutavel.exe - executa o programa Windows
+
+## Função Main
+
+Função principal, é obrigatória em qualquer programa C
+Só posso ter uma função main em todo o meu projeto
+
+## Estruturas de decisão
+
+Faz verificação e assume caminhos
+
+### Switch
+
+Usamos switch em casos onde tenhamos uma estrutura grande ou confusa de if/else/if else
+
+## Estruturas de repetição
+
+Faz um loop
