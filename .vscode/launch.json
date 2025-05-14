@@ -11,7 +11,7 @@
         "${file}",
         "-o",
         "${fileDirname}/${fileBasenameNoExtension}",
-        "-lm" // <- Adiciona isso para linkar a biblioteca matemática
+        "-lm" //link para a biblioteca matemática
       ],
       "options": {
         "cwd": "${fileDirname}"
